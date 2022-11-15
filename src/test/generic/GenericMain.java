@@ -5,7 +5,7 @@ import samples.generic.DisplayVisitor;
 import samples.generic.ObjectA;
 import samples.generic.ObjectB;
 
-public class Test {
+public class GenericMain {
     public static void main(String[] args) {
         ObjectA objectA = new ObjectA(2);
         ObjectB objectB = new ObjectB(2);
