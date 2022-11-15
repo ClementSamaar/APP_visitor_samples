@@ -17,10 +17,12 @@ de ces derniers
 Le visitor peut aussi être utile lorsque qu'un ensemble d'objet est défini avec une structure fixe et qu'on doit lui
 ajouter des méthodes sans modifier sa structure
 
+
 Exemple generique
+
 Interface Visitor : Permet de faire un template pour les Visitor concret. Contient donc la signature des méthodes que
-l'on trouvera dans chaque Visitor
-Classes Visitor concrètes : Permettent de définir les implémentations pour une méthode (visitObjectA et visitObjectB)
-Classe abstraite Object : Elle définit la signature de la méthode acceptVisitor
+l'on trouvera dans chaque Visitor <br>
+Classes Visitor concrètes : Permettent de définir les implémentations pour une méthode (visitObjectA et visitObjectB) <br>
+Classe abstraite Object : Elle définit la signature de la méthode acceptVisitor <br>
 Classes concrètes Object : Définit la méthode acceptVisitor (appelle la méthode visitObject correspondante en passant
-son propre contexte en paramètre)
+son propre contexte en paramètre) <br>
